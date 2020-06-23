@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
 
     <IsPackable>false</IsPackable>
   </PropertyGroup>
@@ -10,16 +10,13 @@
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.3.0-preview-20170427-09" />
     <PackageReference Include="xunit" Version="2.2.0" />
     <PackageReference Include="xunit.runner.visualstudio" Version="2.2.0" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" 
-                      Version="2.0.0-*" />
-    <PackageReference Include="System.Runtime.Serialization.Primitives" 
-                      Version="4.3.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="2.0.0-*" />
+    <PackageReference Include="System.Runtime.Serialization.Primitives" Version="4.3.0" />
     <ProjectReference Include="../ScmDataAccess/ScmDataAccess.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="efscm.db"
-          Condition="Exists('efscm.db')">
+    <None Include="efscm.db" Condition="Exists('efscm.db')">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
   </ItemGroup>

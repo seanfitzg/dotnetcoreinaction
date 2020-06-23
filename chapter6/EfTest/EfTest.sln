@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScmDalTest", "ScmDalTest\ScmDalTest.csproj", "{4668C0CF-A95E-43A2-8CF2-5FB75AF7F745}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScmDataAccess", "ScmDataAccess\ScmDataAccess.csproj", "{71BA4026-ABCF-4AE7-944C-353ED5343097}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4668C0CF-A95E-43A2-8CF2-5FB75AF7F745}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4668C0CF-A95E-43A2-8CF2-5FB75AF7F745}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4668C0CF-A95E-43A2-8CF2-5FB75AF7F745}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4668C0CF-A95E-43A2-8CF2-5FB75AF7F745}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71BA4026-ABCF-4AE7-944C-353ED5343097}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71BA4026-ABCF-4AE7-944C-353ED5343097}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71BA4026-ABCF-4AE7-944C-353ED5343097}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71BA4026-ABCF-4AE7-944C-353ED5343097}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
