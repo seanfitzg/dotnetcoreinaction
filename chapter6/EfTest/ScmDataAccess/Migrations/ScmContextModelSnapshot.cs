@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
+using Microsoft.EntityFrameworkCore.Storage;
 using ScmDataAccess;
 using System;
 
@@ -13,8 +14,9 @@ namespace ScmDataAccess.Migrations
     {
         protected override void BuildModel(ModelBuilder modelBuilder)
         {
+#pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "2.0.0-preview1-24937");
+                .HasAnnotation("ProductVersion", "2.0.0-rtm-26452");
 
             modelBuilder.Entity("ScmDataAccess.InventoryItem", b =>
                 {
@@ -77,6 +79,7 @@ namespace ScmDataAccess.Migrations
                         .WithMany()
                         .HasForeignKey("PartId");
                 });
+#pragma warning restore 612, 618
         }
     }
 }
